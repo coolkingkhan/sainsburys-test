@@ -1,0 +1,84 @@
+// header styling which includes navigation
+
+.header {
+  @include rem(margin-bottom, 40px);
+  
+  .header-top {
+    @include rem(margin-bottom, 20px);
+    display: block;
+  
+    .logo-container {
+      display: inline-block;
+  
+      .logo {
+        @include rem(padding-right, 5px);
+        display: inline-block;
+        margin: 0;
+        vertical-align: middle;
+      }
+
+      h1 {
+        @include rem(font-size, 40px);
+        display: inline-block;
+        margin: 0;
+        vertical-align: middle;
+        text-transform: uppercase;
+      }
+    }
+
+    .social {
+      @include rem(margin-top, 5px);
+      display: inline-block;
+      float: right;
+      text-align: center;
+      
+      ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      
+        li {
+          display: inline-block;
+      
+          span {
+            color: black;
+          }
+        }
+      }
+    }
+  }
+
+  .main-nav {
+    background: #eee;
+    border: 1px solid black;
+    
+    ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      list-style: none;
+    }
+
+    a {
+      @include rem(padding, 10px);
+      @include rem(font-size, 20px);
+      max-width: 140px;
+      font-weight: bold;
+      text-decoration: none;
+      display: flex;
+      align-items: flex-space-between;
+      color: rgba(0,0,0,0.9);
+      -webkit-font-smoothing: antialiased;
+      
+      &:hover, &:focus {
+        color: rgba(0,0,0,0.6);
+      }
+    }
+  }
+
+  .toggle {
+    display: none;
+  }
+}

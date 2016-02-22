@@ -1,0 +1,42 @@
+// footer styling
+
+footer {
+  display: block;
+  min-height: 50px;
+  background: #eee;
+  border: 1px solid black;
+  
+  .social {
+    display: none;
+  }
+}
+
+#mobile-nav {
+  display: none;
+
+  &:checked + #main-nav {
+    @include rem(margin-bottom, 20px);
+    display: block;
+    
+    #main-nav-list {
+      height: auto;
+      text-align: center;
+      transition: all 1s ease;
+      
+      li {
+        border-bottom: 1px solid black;
+        width: 100%;
+        display: block;
+        
+        a {
+          display: block;
+          max-width: 100%;
+        }
+
+        &:last-child {
+          border-bottom: 0;
+        }
+      }
+    }
+  }
+}

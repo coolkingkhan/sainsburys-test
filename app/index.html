@@ -17,6 +17,7 @@
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   </head>
   <body>
     <!--[if lt IE 10]>
@@ -24,13 +25,140 @@
     <![endif]-->
 
     
-    <div class="hero-unit">
-      <h1>'Allo, 'Allo!</h1>
-      <p>You now have</p>
-      <ul>
-        <li><a href="https://html5boilerplate.com/">HTML5 Boilerplate</a></li>
-        <li><a href="http://libsass.org/">Sass</a></li>
-      </ul>
+    <div class="container">
+      <header class="header">
+        <div class="header-top">
+          <div class="logo-container">
+            <img src="http://placehold.it/50x50" alt="" class="logo">
+            <h1>company name</h1>
+          </div>
+          <div class="social">
+            <ul>
+              <li>
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>          
+        </div>
+
+        <label for="mobile-nav" class="toggle"><i class="fa fa-bars"></i></label>
+
+        <input type="checkbox" id="mobile-nav" name="" value="">
+
+        <nav role='navigation' class="main-nav" id="main-nav">
+          <ul id="main-nav-list">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">eBooks</a>
+            </li>
+            <li>
+              <a href="#">Magazines</a>
+            </li>
+            <li>
+              <a href="#">Movies</a>
+            </li>
+            <li>
+              <a href="#">Help</a>
+            </li>
+            <li>
+              <a href="#">Login</a>
+            </li>
+          </ul>
+        </nav>
+
+      </header>
+      
+      <main>
+        <article class="content">
+          <header>
+            <h2>Lorem ipsum dolor sit</h2>
+            <p>posted on 15 May 2015 by Author</p>
+          </header>
+          
+          <div class="image-placeholder four-three" style="background-image: url('http://placehold.it/600x450')"></div>
+          
+          <div class="content-text">
+            
+            <div class="more-links">
+              <h3>More...</h3>
+              <ul>
+                <li><a href="#">Link #1</a></li>
+                <li><a href="#">Another link</a></li>
+                <li><a href="#">Third link</a></li>
+              </ul>
+            </div>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita unde, commodi eos, doloribus nobis culpa! Quisquam ad dignissimos voluptas aspernatur voluptatem, temporibus blanditiis molestiae tempora adipisci nostrum autem veritatis ducimus rem incidunt optio sunt distinctio dolorum exercitationem maxime? Nulla itaque quisquam, repellat veniam at minus dolores, ad dicta? Perferendis, voluptates. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto cum totam omnis id, atque maiores! Iusto, minima dolore corporis perspiciatis quam officiis nostrum molestias officia? Laborum commodi corrupti maxime velit?</p>
+
+          </div>
+
+          <div class="content-text">
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur voluptate, quos laboriosam possimus provident reiciendis fugit sequi necessitatibus dolorum ratione sed, quasi omnis inventore dignissimos vero facere a beatae earum iusto excepturi itaque odit totam! Optio vero sapiente placeat corporis error. Ea porro impedit eos, animi esse cum veniam sint.</p>
+
+          </div>
+
+        </article>
+        <aside class="sidebar">
+          <h4>A guide to snoopsetting</h4>
+          <div class="image-placeholder one-one" style="background-image: url('http://placehold.it/300x300')"></div>
+          <h4>Welcome to the surveillance State</h4>
+          <div class="image-placeholder one-one" style="background-image: url('http://placehold.it/300x300')"></div>
+        </aside>
+      </main>
+      <footer>
+          <div class="social">
+            <ul>
+              <li>
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>        
+      </footer>
     </div>
     
 

@@ -1,0 +1,45 @@
+body {
+  background: #fafafa;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  @include rem(margin, 0 0 10px 0);
+}
+
+.container {
+  @include rem(padding, 0 20px);
+  display: block;
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  .image-placeholder {
+    width: 100%;
+    background-position: center;
+  }
+  
+  .four-three{
+    padding-bottom: 75%; /* 4:3 */
+    position: relative;
+  }
+  
+  .one-one {
+    padding-bottom: 100%; /* 1:1 */
+    position: relative;     
+  }  
+}

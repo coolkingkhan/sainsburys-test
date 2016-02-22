@@ -1,0 +1,49 @@
+// content styling
+
+.content {
+	flex-basis: 70%;
+	justify-content: space-between;
+	padding-right: 2%;
+
+	header {
+	  @include rem(margin-bottom, 20px);
+
+	  p {
+	    margin-bottom: 0;
+	  }
+	}
+
+	h2 {
+	  @include rem(font-size, 30px);
+	  font-weight: 400;
+	  margin: 0;      
+	}
+
+	p {
+	  @include rem(margin-bottom, 20px);
+	}
+
+	.image-placeholder {
+	  @include rem(margin-bottom, 20px);
+	}
+
+	.content-text {
+
+	  .more-links {
+	    @include rem(padding, 0 40px);
+	    float: right;
+
+	    ul {
+	      padding: 0;
+
+	      li {
+	        @include rem(margin-bottom, 5px);
+
+	        a {
+	          text-decoration: none;
+	        }
+	      }
+	    }
+	  }
+	}   
+}

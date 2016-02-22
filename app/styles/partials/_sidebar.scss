@@ -1,0 +1,16 @@
+// sidebar styling
+
+.sidebar {
+	flex-basis: 30%;
+	justify-content: space-between;
+
+	h4 {
+	  @include rem(font-size, 28px);
+	  @include rem(margin-bottom, 7px);
+	  font-weight: 300;
+	}
+
+	.image-placeholder {
+	  @include rem(margin-bottom, 30px);
+	} 
+} 
