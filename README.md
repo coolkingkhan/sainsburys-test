@@ -8,7 +8,7 @@ Setup of static front-end via yeoman scaffolding generating tool, see here for m
 installation instructions:
 
 1. download and install nodejs from http://nodejs.org/en
-2. download and install git from http://git-scm/downloads
+2. download and install git from http://git-scm.com/downloads 
 3. open command prompt as administrator if on pc or open terminal if on mac
 4. type npm install -g grunt-cli on windows or sudo npm install -g grunt-cli on mac and enter password if asked
 5. type npm install -g bower on windows or sudo npm install -g bower on mac and enter password if asked
